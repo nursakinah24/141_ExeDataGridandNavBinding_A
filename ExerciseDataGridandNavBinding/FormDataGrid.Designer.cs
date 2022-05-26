@@ -41,10 +41,10 @@ namespace ExerciseDataGridandNavBinding
             this.labelAlamat = new System.Windows.Forms.Label();
             this.labelNama = new System.Windows.Forms.Label();
             this.labelNIM = new System.Windows.Forms.Label();
-            this.btnExitDG = new System.Windows.Forms.Button();
             this.prodiTIDataSet = new ExerciseDataGridandNavBinding.ProdiTIDataSet();
             this.mahasiswaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.mahasiswaTableAdapter = new ExerciseDataGridandNavBinding.ProdiTIDataSetTableAdapters.MahasiswaTableAdapter();
+            this.btnExitFDG = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.prodiTIDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mahasiswaBindingSource)).BeginInit();
@@ -175,17 +175,6 @@ namespace ExerciseDataGridandNavBinding
             this.labelNIM.TabIndex = 0;
             this.labelNIM.Text = "No. Mahasiswa";
             // 
-            // btnExitDG
-            // 
-            this.btnExitDG.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnExitDG.Image = global::ExerciseDataGridandNavBinding.Properties.Resources.arrow_left;
-            this.btnExitDG.Location = new System.Drawing.Point(12, 387);
-            this.btnExitDG.Name = "btnExitDG";
-            this.btnExitDG.Size = new System.Drawing.Size(59, 62);
-            this.btnExitDG.TabIndex = 3;
-            this.btnExitDG.UseVisualStyleBackColor = true;
-            this.btnExitDG.Click += new System.EventHandler(this.button1_Click);
-            // 
             // prodiTIDataSet
             // 
             this.prodiTIDataSet.DataSetName = "ProdiTIDataSet";
@@ -200,14 +189,26 @@ namespace ExerciseDataGridandNavBinding
             // 
             this.mahasiswaTableAdapter.ClearBeforeFill = true;
             // 
+            // btnExitFDG
+            // 
+            this.btnExitFDG.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnExitFDG.Image = global::ExerciseDataGridandNavBinding.Properties.Resources.arrow_left;
+            this.btnExitFDG.Location = new System.Drawing.Point(12, 387);
+            this.btnExitFDG.Name = "btnExitFDG";
+            this.btnExitFDG.Size = new System.Drawing.Size(59, 62);
+            this.btnExitFDG.TabIndex = 3;
+            this.btnExitFDG.UseVisualStyleBackColor = true;
+            this.btnExitFDG.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormDataGrid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(555, 461);
-            this.Controls.Add(this.btnExitDG);
+            this.Controls.Add(this.btnExitFDG);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormDataGrid";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormDataGrid";
             this.Load += new System.EventHandler(this.FormDataGrid_Load);
             this.groupBox1.ResumeLayout(false);
@@ -220,7 +221,7 @@ namespace ExerciseDataGridandNavBinding
 
         #endregion
 
-        private System.Windows.Forms.Button btnExitDG;
+        private System.Windows.Forms.Button btnExitFDG;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

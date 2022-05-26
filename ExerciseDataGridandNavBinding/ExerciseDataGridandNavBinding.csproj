@@ -147,5 +147,17 @@
   <ItemGroup>
     <None Include="Resources\arrow-left.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bracket %281%29 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bracket %281%29 %281%291.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

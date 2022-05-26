@@ -55,6 +55,7 @@ namespace ExerciseDataGridandNavBinding
             this.btnExitMenu.Size = new System.Drawing.Size(59, 64);
             this.btnExitMenu.TabIndex = 15;
             this.btnExitMenu.UseVisualStyleBackColor = true;
+            this.btnExitMenu.Click += new System.EventHandler(this.btnExitMenu_Click);
             // 
             // btnNavi
             // 
@@ -62,7 +63,7 @@ namespace ExerciseDataGridandNavBinding
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNavi.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnNavi.Image = global::ExerciseDataGridandNavBinding.Properties.Resources.bracket__1_;
+            this.btnNavi.Image = global::ExerciseDataGridandNavBinding.Properties.Resources.bracket__1___1_;
             this.btnNavi.Location = new System.Drawing.Point(312, 155);
             this.btnNavi.Name = "btnNavi";
             this.btnNavi.Size = new System.Drawing.Size(165, 150);
@@ -70,6 +71,7 @@ namespace ExerciseDataGridandNavBinding
             this.btnNavi.Text = "Binding Navigation";
             this.btnNavi.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnNavi.UseVisualStyleBackColor = true;
+            this.btnNavi.Click += new System.EventHandler(this.btnNavi_Click);
             // 
             // btnData
             // 
@@ -77,8 +79,7 @@ namespace ExerciseDataGridandNavBinding
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnData.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnData.Image = global::ExerciseDataGridandNavBinding.Properties.Resources.grid__1_;
-            this.btnData.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnData.Image = global::ExerciseDataGridandNavBinding.Properties.Resources.grid__1___1_;
             this.btnData.Location = new System.Drawing.Point(69, 155);
             this.btnData.Name = "btnData";
             this.btnData.Size = new System.Drawing.Size(165, 150);
@@ -86,6 +87,7 @@ namespace ExerciseDataGridandNavBinding
             this.btnData.Text = "DataGridView";
             this.btnData.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnData.UseVisualStyleBackColor = true;
+            this.btnData.Click += new System.EventHandler(this.btnData_Click);
             // 
             // MenuForm
             // 
@@ -97,6 +99,7 @@ namespace ExerciseDataGridandNavBinding
             this.Controls.Add(this.btnData);
             this.Controls.Add(this.label1);
             this.Name = "MenuForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuForm";
             this.ResumeLayout(false);
             this.PerformLayout();

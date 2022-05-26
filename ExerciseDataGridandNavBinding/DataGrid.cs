@@ -23,5 +23,19 @@ namespace ExerciseDataGridandNavBinding
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
 
         }
+
+        private void btnExitDG_Click(object sender, EventArgs e)
+        {
+            MenuForm menu = new MenuForm();
+            menu.Show();
+            this.Hide();
+        }
+
+        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            FormDataGrid fDataGrid = new FormDataGrid();
+            fDataGrid.Show();
+            this.Hide();
+        }
     }
 }

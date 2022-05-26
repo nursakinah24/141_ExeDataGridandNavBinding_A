@@ -83,9 +83,49 @@ namespace ExerciseDataGridandNavBinding.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bracket__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("bracket (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bracket__1___1_1 {
+            get {
+                object obj = ResourceManager.GetObject("bracket (1) (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap grid__1_ {
             get {
                 object obj = ResourceManager.GetObject("grid (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grid__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("grid (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grid__2_ {
+            get {
+                object obj = ResourceManager.GetObject("grid (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

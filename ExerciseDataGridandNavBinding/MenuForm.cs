@@ -16,5 +16,26 @@ namespace ExerciseDataGridandNavBinding
         {
             InitializeComponent();
         }
+
+        private void btnData_Click(object sender, EventArgs e)
+        {
+            DataGrid dataGrid = new DataGrid();
+            dataGrid.Show();
+            this.Hide();
+        }
+
+        private void btnNavi_Click(object sender, EventArgs e)
+        {
+            FormDataBinding dataBinding = new FormDataBinding();
+            dataBinding.Show();
+            this.Hide();
+        }
+
+        private void btnExitMenu_Click(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.Show();
+            this.Hide();
+        }
     }
 }

@@ -24,7 +24,9 @@ namespace ExerciseDataGridandNavBinding
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MenuForm menu = new MenuForm();
+            menu.Show();
+            this.Hide();
         }
 
         private void FormDataGrid_Load(object sender, EventArgs e)

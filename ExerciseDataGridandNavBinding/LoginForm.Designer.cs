@@ -47,6 +47,7 @@ namespace ExerciseDataGridandNavBinding
             this.btnLogin.TabIndex = 25;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnExitLogin
             // 
@@ -56,6 +57,7 @@ namespace ExerciseDataGridandNavBinding
             this.btnExitLogin.TabIndex = 24;
             this.btnExitLogin.Text = "Exit";
             this.btnExitLogin.UseVisualStyleBackColor = true;
+            this.btnExitLogin.Click += new System.EventHandler(this.btnExitLogin_Click);
             // 
             // cbTnc
             // 
@@ -129,6 +131,7 @@ namespace ExerciseDataGridandNavBinding
             this.Controls.Add(this.labelUname);
             this.Controls.Add(this.lablTitle);
             this.Name = "LoginForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
