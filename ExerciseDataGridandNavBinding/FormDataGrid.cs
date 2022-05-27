@@ -35,5 +35,10 @@ namespace ExerciseDataGridandNavBinding
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
 
         }
+
+        private void labelName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

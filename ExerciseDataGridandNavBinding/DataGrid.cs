@@ -31,9 +31,14 @@ namespace ExerciseDataGridandNavBinding
             this.Hide();
         }
 
-        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             FormDataGrid fDataGrid = new FormDataGrid();
+            fDataGrid.labelNIM.Text = this.dataGridView.CurrentRow.Cells[0].Value.ToString();
+            fDataGrid.labelName.Text = this.dataGridView.CurrentRow.Cells[1].Value.ToString();
+            fDataGrid.labelSex.Text = this.dataGridView.CurrentRow.Cells[2].Value.ToString();
+            fDataGrid.labelAddress.Text = this.dataGridView.CurrentRow.Cells[3].Value.ToString();
+            fDataGrid.labelPhone.Text = this.dataGridView.CurrentRow.Cells[4].Value.ToString();
             fDataGrid.Show();
             this.Hide();
         }
